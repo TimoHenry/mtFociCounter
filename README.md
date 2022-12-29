@@ -14,12 +14,10 @@ In this read-me, we will first list all the files with a short explanation on wh
   This is an old version of a jupyter notebook which could serve as a template to analyse the data output by the Fiji-plugin "Foci Counter"  
   Do not worry too much about it, it will be replaced in the future with something more robust and simpler to use - hopefully as a python-based web-application
 
-**ii) a jython-file called:** FociCounter_b3_.ijm  
-  This is an older beta-version of the macro. in principle it does something, but it is not very polished and will eventually be replaced.  
-
-**iii) a jython-file called:** FociCounter_b7_.ijm  
-  This is the current beta-version, ready for testing. Please have a go and report anything that you are not happy with via e-mail to me!  
-  NOTE: not all functionalities are fully implemented, and the file should be updated in the future.
+**ii) a jython-file called:** FociCounter_v01_.ijm  
+  This is the current version with minor upgrades from the beta version for better usability.
+  Please have a go and report anything that you are not happy with via e-mail to me! [firstname + lastname, as indicated within the script, at hotmail.com]
+  NOTE: further updates may be added in the future.
 
 ### B) There are currently two description files available, a third one is in the making:
 
