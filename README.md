@@ -14,8 +14,8 @@ In this read-me, we will first list all the files with a short explanation on wh
   This is an old version of a jupyter notebook which could serve as a template to analyse the data output by the Fiji-plugin "Foci Counter"  
   Do not worry too much about it, it will be replaced in the future with something more robust and simpler to use - hopefully as a python-based web-application
 
-**ii) a jython-file called:** FociCounter_v01_.ijm  
-  This is the current version with minor upgrades from the beta version for better usability.
+**ii) a jython-file called:** FociCounter_b10_.ijm  
+  This is the current version with minor upgrades from the previous beta versions for better usability.
   Please have a go and report anything that you are not happy with via e-mail to me! [firstname + lastname, as indicated within the script, at hotmail.com]
   NOTE: further updates may be added in the future.
 
@@ -28,7 +28,7 @@ In this read-me, we will first list all the files with a short explanation on wh
   This gives a basic explanation of how to use the mtFociCounter.  
   It contains a step-by-step guide to how to install and run the plugin, and explains briefly what choices are available and what they are good for.
 
-**iii) Code-logic**  
+*iii) Code-logic* 
   This does not yet exist, but should later allow to understand the logic of the script, what algorithms are used, and how the different sections work.
   
 *iv) Future directions:*  
