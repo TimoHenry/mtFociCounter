@@ -37,7 +37,8 @@ These are not yet implemented. Ideally, cells should be segmented automatically 
 ### c) Find Foci
 **INPUT:** directory with 2D images in .tif format containing an ROI (at least a Foci-channel is needed).  
 other optional input possible - see below.  
-**OUTPUT:** .csv file with foci count and other optional descriptors for each cell.
+**OUTPUT:** you will receive one .csv file with foci-count and other optional descriptors for each cell. you can open this with excel, libre office or other programs.
+In addition, for every cell you will receive 6 binary images with your foci and 6 .zip files, which you can drag & drop onto Fiji to overlay as ROIs on your input-image.
 
 In this part, foci are identified using "find max" with a range of prominences.
 These foci can then be filtered using a nuclear mask to exclude the nuclear area (e.g. for anti-mtDNA stainings),  
@@ -50,7 +51,4 @@ Alternatively, *pre-segmented* masks can be loaded as well, which allows the use
 ### d) Co-localise Foci
 This feature is not implemented yet. sorry.  
 It will allow to analyse two types of foci (e.g. anti-mtDNA + EdU-Click) at the same time and determine their respective number and co-localisation.
-
-### e) Measure Distances
-This feature is also not implemented yet. sorry again.  
-It will allow users to manually measure the distances of foci to their respective mitochondria poles, for instance, or between foci.
+If it would be useful for you to have this, do not hesitate to let me know - it should be fast to implement, simply has not made it to the top of my ToDo's yet..
