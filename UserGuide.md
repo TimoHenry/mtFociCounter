@@ -27,12 +27,9 @@ The user may have to click OK for each image to pass through opening, depending 
 **INPUT:** directory with 3D images in .tif format.  
 **OUTPUT:** directory with z-projected images in .tif format containing a region of interest (ROI) selection  
 Z-projects 3D image-stacks and then allows delineation of single cells in the images.  
-
-#### i) manual segmentation
 Allows user to manually outline individual cells in large fields of view.  
-Several cells can be chosen in each FOV: care-fully read and follow the instructions in the graphical user interfaces.
-#### ii) other segmentation
-These are not yet implemented. Ideally, cells should be segmented automatically eventually, to allow higher throughput.
+Several cells can be chosen in each FOV: care-fully read and follow the instructions in the graphical user interfaces.   
+NOTE: mode of Z-projection can be adapted (default is maximum intensity projection across all available slices).
 
 ### c) Find Foci
 **INPUT:** directory with 2D images in .tif format containing an ROI (at least a Foci-channel is needed).  
